@@ -1,5 +1,5 @@
 {
-    "name": "moneymaxim/trustpilot-invitiation-api",
+    "name": "moneymaxim/trustpilot-invitation-api",
     "description": "A PHP library for accessing the Trustpilot Invitation API",
     "require": {
         "php": ">=5.5.0",
