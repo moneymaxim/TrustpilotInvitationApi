@@ -1,0 +1,27 @@
+{
+    "name": "moneymaxim/trustpilot-invitiation-api",
+    "description": "A PHP library for accessing the Trustpilot Invitation API",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "moneymaxim/trustpilot-authenticator": "^0.1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Carter",
+            "email": "andrew.carter@moneymaxim.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Trustpilot\\Api\\Invitation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trustpilot\\Test\\Api\\Invitation\\": "test/"
+        }
+    }
+}
+
